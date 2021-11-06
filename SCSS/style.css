@@ -1,6 +1,7 @@
 body {
   max-width: 1440px;
   margin: 0 auto;
+  background-color: #c5e4e7;
 }
 
 .flex {
@@ -11,10 +12,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #f33333;
-  margin: auto;
+  background-color: #ffffff;
+  margin: 20px auto;
   padding: 20px;
   max-width: 800px;
+  border-radius: 15px;
 }
 
 .container {
@@ -114,6 +116,8 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 1/2/2/3;
   padding: 10px;
+  background-color: #00494d;
+  border-radius: 15px;
 }
 
 .container__right__amount {
