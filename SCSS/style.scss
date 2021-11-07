@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 body {
+    font-family: 'Space Mono', monospace;
     max-width: 1440px;
     margin: 0 auto;
     background-color: hsl(185, 41%, 84%);
+}
+
+button {
+    background-color: hsl(183, 100%, 15%);
+    padding: 10px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    border: 2px solid hsl(183, 100%, 15%);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+    border: 2px solid hsl(185, 41%, 84%);
 }
 
 .flex {
@@ -59,6 +83,14 @@ body {
 
                 &--custom {
                     grid-area: 3/3/4/4;
+                    background-color: hsl(185, 41%, 84%);
+                    color: darkslategray;
+                    border: 2px solid hsl(185, 41%, 84%);
+                }
+
+                &--custom:hover {
+                    background-color: white;
+                    border: 2px solid hsl(172, 67%, 45%);
                 }
             }
 
@@ -82,7 +114,21 @@ body {
             }
 
             &__reset {
-                color: blue;
+                display: flex;
+                text-transform: uppercase;
+                justify-content: center;
+                margin: 0 auto;
+                background-color: hsl(172, 67%, 45%);
+                border: none;
+                color: darkslategray;
+                width: 90%;
             }
+
+            &__reset:hover {
+                background-color: hsl(185, 41%, 84%);
+                color: hsl(183, 100%, 15%);
+                border: none;
+            }
+           
         }
 }

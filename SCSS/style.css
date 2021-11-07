@@ -1,7 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 body {
+  font-family: 'Space Mono', monospace;
   max-width: 1440px;
   margin: 0 auto;
   background-color: #c5e4e7;
+}
+
+button {
+  background-color: #00494d;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  border: 2px solid #00494d;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #c5e4e7;
+  color: #00494d;
+  border: 2px solid #c5e4e7;
 }
 
 .flex {
@@ -103,6 +126,14 @@ body {
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-area: 3/3/4/4;
+  background-color: #c5e4e7;
+  color: darkslategray;
+  border: 2px solid #c5e4e7;
+}
+
+.container__left__tip--custom:hover {
+  background-color: white;
+  border: 2px solid #26c0ab;
 }
 
 .container__left__people {
@@ -129,6 +160,23 @@ body {
 }
 
 .container__right__reset {
-  color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  background-color: #26c0ab;
+  border: none;
+  color: darkslategray;
+  width: 90%;
+}
+
+.container__right__reset:hover {
+  background-color: #c5e4e7;
+  color: #00494d;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
